@@ -1,3 +1,64 @@
 *{
     font-family: "Inter", sans-serif;
+    font-weight: normal;
+}
+.header{
+    display: grid;
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    grid-template-columns: 1fr auto 1fr;
+    grid-template-areas: 
+    "logo links udb";
+}
+.grid .logo{
+    grid-area: logo;
+}
+.grid .pageslink{
+    grid-area: links;
+}
+.grid .linkudb{
+    grid-area: udb;
+}
+.pageslink{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.pageslink  h3{
+    font-size: 14px;
+    justify-content: space-between;
+}
+.pageslink a {
+    text-decoration: none; 
+    color: black;
+    padding-block: 5px;
+    padding-inline: 10px;
+    justify-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.homelogo{
+    width: 50px;
+    padding-left: 15px;
+}
+.ulink{
+    font-weight:600;
+    color: white;   
+    padding-block: 7px;
+    padding-inline: 15px;
+    background-color: #D91438;
+    border: #D91438;
+    border-radius: 7px;
+}
+.linkudb{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 15px;
+    
 }
