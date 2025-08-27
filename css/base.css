@@ -1,7 +1,7 @@
 *{
     font-family: "Inter", sans-serif;
     font-weight: normal;
-    margin-inline: 0%;
+    margin: 0%;
 }
 .header{
     display: grid;
@@ -9,7 +9,8 @@
     grid-template-columns: 1fr auto 1fr;
     grid-template-areas: 
     "logo links udb";
-    margin-bottom: 7px ;
+    padding: 7px ;
+    background-color: white;
 }
 .grid .logo{
     grid-area: logo;
