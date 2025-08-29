@@ -1,22 +1,63 @@
-.bannerart{
-    position:static;
+.bannerart{ 
     width: 100%;
+    overflow: hidden;
+    align-items: center;
     justify-items: center;
+    filter: blur(1px); /*Verificar estetica*/
+}
+.oneline{
+  display: flex;
+  width: max-content;
+  animation: mover1y3;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.secondline{
+  display: flex;
+   animation: mover2;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.thirdline{
+  display: flex;
+  width: max-content;
+  animation: mover1y3;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 .bannerart h1{
   font-family: "Bodoni Moda", serif;
-  font-size: 35px;
-  font-weight:600;
+  font-size: 60px;
+  font-weight:700;
   font-style: italic;
-  margin: 0%;
+  height: 55px;
+  margin-inline: 15px;
   padding: 0%;
-  color: #D91438;
+}
+.bannerart .color1{
+  color: #d91a35;
+}
+.bannerart .color2{
+  color: #ea681d;
+}
+.bannerart .color3{
+  color: #f9b81d;
+}
+.bannerart .color4{
+  color: #8bbd25;
+}
+.bannerart .color5{
+  color: #37b8d5;
 }
 .titlepage{
   text-align: center;
-  font-size: 60px;
+  font-size: 80px;
   font-weight: 700;
-  margin-block: 30px;
+  margin-top: 10px;
+  margin-block-end: 30px;
   text-shadow: 0 1px 15px rgba(0,0,0,.15)
 }
 .cita{
@@ -58,4 +99,29 @@
 .whatis h1{
   font-weight: 700;
   font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+@keyframes mover1y3 {
+  from {
+    transform: translate(0%);
+  }
+  to {
+    transform: translate(-5%);
+  }
+}
+@keyframes mover2 {
+  from {
+    transform: translate(0%);
+  }
+  to {
+    transform: translate(5%);
+  }
 }
