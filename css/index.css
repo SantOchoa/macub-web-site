@@ -1,5 +1,5 @@
 .bannerart{
-    position:initial;
+    position:static;
     width: 100%;
     justify-items: center;
 }
@@ -36,7 +36,6 @@
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "textwhatis imageec";
   justify-items: center;
-  background-color: ;
 }
 .grid .whatis .text{
   display: flex;
