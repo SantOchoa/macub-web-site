@@ -5,12 +5,14 @@
 }
 .header{
     display: grid;
-    width: 100%;
+    width: 99%;
     grid-template-columns: 1fr auto 1fr;
     grid-template-areas: 
     "logo links udb";
     padding: 7px ;
     background-color: white;
+    position: sticky;
+    top:0%;
 }
 .grid .logo{
     grid-area: logo;
