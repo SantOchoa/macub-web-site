@@ -1,5 +1,5 @@
 .bannerart{
-    position:initial;
+    position:static;
     width: 100%;
     justify-items: center;
 }
@@ -30,4 +30,32 @@
 }
 .name{
   color: rgba(128, 128, 128, 0.94);
+}
+.whatis{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "textwhatis imageec";
+  justify-items: center;
+}
+.grid .whatis .text{
+  display: flex;
+  grid-area: textwhatis;
+}
+.grid .whatis img{
+  display: flex;
+  grid-area: imageec;
+  align-items: center;
+  align-content: center;
+}
+.whatis img{
+  display: flex;
+  width: 750px;
+  margin: 1px;
+}
+.whatis .text{
+  display: flex;
+}
+.whatis h1{
+  font-weight: 700;
+  font-size: 40px;
 }
