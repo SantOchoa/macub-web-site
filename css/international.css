@@ -1,0 +1,26 @@
+.internationalbanerr{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.internationalbanerr .image{
+    display: flex;
+    justify-content: center;
+}
+.internationalbanerr .image img{
+    margin-top: 10px;
+    width: 500px;
+    height: auto;
+}
+.internationalbanerr h1,p {
+    text-align: center;
+}
+.internationalbanerr h1{
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.internationalbanerr p{
+    margin-left: 300px;
+    margin-right: 300px;
+}

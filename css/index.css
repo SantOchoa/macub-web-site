@@ -194,23 +194,7 @@
   filter: brightness(0);
 }
 
-.footer{
-background-color:#811120;
-}
-.footer-content {
-  display: flex;
-  justify-content: space-between; 
-  max-width: 1000px;
-  margin: auto;
-}
-.footer p{
-  font-weight: 200;
-  color: #ffffff;
-}
-.footer-logo img {
-  padding: 20px;
-  height: 120px;  
-}
+
 
 
 
