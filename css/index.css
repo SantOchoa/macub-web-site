@@ -3,7 +3,7 @@
     overflow: hidden;
     align-items: center;
     justify-items: center;
-    filter: blur(1px); /*Verificar estetica*/
+    filter: blur(1px); 
 }
 .oneline{
   display: flex;
@@ -134,6 +134,7 @@
 }
 .exhibition-containner{
   display: flex;
+  
 }
 .exhibition-containner .text{
   display: block;
