@@ -2,6 +2,7 @@
     display: block;
     align-items: center;
     justify-content: center;
+    margin-bottom: 200px;
 }
 .internationalbanerr .image{
     display: flex;
@@ -19,8 +20,73 @@
     font-size: 70px;
     font-weight: 700;
     margin-bottom: 20px;
+    text-shadow: 0 1px 15px rgba(0,0,0,.15);
 }
 .internationalbanerr p{
+    font-style: italic;
+    color: rgb(71 71 71 / 94%);
     margin-left: 300px;
     margin-right: 300px;
 }
+
+.painting-black{
+    padding-block:100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+.painting-black img{
+    width: 400px;
+    margin-right: 100px;
+    box-shadow: 1px 1px 35px rgba(255, 255, 255, 0.342);
+}
+.painting-black .text{
+    margin-left: 200px;
+    align-content: center;
+}
+.painting-black .text h2{
+    text-align: start;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.painting-black .text p{
+    text-align: start;
+    font-size: 15px;
+    font-style: italic;
+}
+.painting-black .text p strong{
+    font-weight: 600;
+}
+
+
+.painting-white{
+    padding-block:100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+}
+.painting-white img{
+    width: 400px;
+    margin-left: 100px;
+    box-shadow: 1px 1px 35px rgba(0, 0, 0, 0.342);
+}
+.painting-white .text{
+    margin-right: 200px;
+    align-content: center;
+}
+.painting-white .text h2{
+    text-align: end;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.painting-white .text p{
+    text-align: end;
+    font-size: 15px;
+    font-style: italic;
+}
+.painting-white .text p strong{
+    font-weight: 600;
+}
+
