@@ -165,10 +165,18 @@
   width: 250px;
   background-color: #000000;
   border-radius: 17px;
-  filter: brightness(0.5);
 }
+.exhibition.national {
+  background-image: url('../images/images-index/national-boxes.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;               
+  justify-content: center;
+  align-items: center;
+}
+
 .exhibition.international{
-  background-image: url('../images/images-index/international-backgraund.jpg');
+  background-image: url('../images/images-index/international-boxes.jpg');
   background-size: cover;
   background-position: center;
   display: flex;               
@@ -176,7 +184,7 @@
   align-items: center;
 }
 .exhibition.sculptures {
-  background-image: url('../images/images-index/quijote-logo-macub.jpg');
+  background-image: url('../images/images-index/sculptures-boxes.jpg');
   background-size: cover;
   background-position: center;
   display: flex;               
