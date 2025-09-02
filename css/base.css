@@ -5,7 +5,7 @@
 }
 .header{
     display: grid;
-    width: 99%;
+    width: cal(100%-14px);
     grid-template-columns: 1fr auto 1fr;
     grid-template-areas: 
     "logo links udb";
@@ -13,6 +13,7 @@
     background-color: white;
     position: sticky;
     top:0%;
+    z-index: 1;
 }
 .grid .logo{
     grid-area: logo;
@@ -64,4 +65,22 @@
     justify-content: flex-end;
     padding-right: 15px;
     
+}
+
+.footer{
+background-color:#811120;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between; 
+  max-width: 1000px;
+  margin: auto;
+}
+.footer p{
+  font-weight: 200;
+  color: #ffffff;
+}
+.footer-logo img {
+  padding: 20px;
+  height: 120px;  
 }
