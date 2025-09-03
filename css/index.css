@@ -1,9 +1,9 @@
 .bannerart{ 
-    width: 100%;
-    overflow: hidden;
-    align-items: center;
-    justify-items: center;
-    filter: blur(1px); 
+  width: 100%;
+  overflow: hidden;
+  align-items: center;
+  justify-items: center;
+  filter: blur(1px); 
 }
 .oneline{
   display: flex;
@@ -112,6 +112,8 @@
 .whatis img{
   width: 500px;
   margin: 0%;
+  animation: fadeIn 3.5s ease-in-out;
+  animation-fill-mode: both;
 }
 .whatis .text{
   display: inline;
@@ -166,6 +168,10 @@
   background-color: #000000;
   border-radius: 17px;
 }
+.exhibition:hover{
+  transform: scale(1.05);
+}
+
 .exhibition.national {
   background-image: url('../images/images-index/national-boxes.jpg');
   background-size: cover;
@@ -225,4 +231,12 @@
   to {
     transform: translate(5%);
   }
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
