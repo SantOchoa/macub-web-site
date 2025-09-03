@@ -1,80 +1,199 @@
+.inicio-imagen{
+    width: 400px;
+    height: 500px;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.Texto {
+    font-size: 16px;
+    font-style: italic;
+}
+.Texto strong {
+    font-weight: 600;
+}
+.Titulo {
+    font-size: 25px;
+    margin: 10px;
+}
+.Descripcion {
+    margin-top: 10px;
+    text-align: justify;
+    width: 350px;
+}
+.imagen{
+    width: 400px;
+    height: 500px;
+    align-items: center;
+    margin: 60px;
+    border-radius: 20px;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+.inicio-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inicio {
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-shadow: 0 1px 15px rgba(0,0,0,.15);
+}
+.cita-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .cita {
-  margin-inline: 200px;
-  font-size: 24px;
-  font-style: italic;
-  font-weight: 300;
-  margin-block: 1px;
-  color: rgb(71 71 71 / 94%);
-  text-align: center;
-}
-
-.name{
-  color: rgba(132, 131, 131, 0.94);
-  text-align: center;
-}
-
-.grid{
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    grid-template-areas: "pensador pensador pensador pensador"
-                         "David David Venus Venus"
-                         "David David Venus Venus";
-}
-
-
-.grid Pensador{
-    grid-area: pensador;
-    justify-content: center;
-    border: #088c01 1px solid;
-    margin-top: 20px;
+    font-style: italic;
+    color: rgb(71 71 71 / 94%);
+    text-align: center;
     margin-bottom: 20px;
 }
-.pensador-flex{
+.name{
+    color: rgba(132, 131, 131, 0.94);
+    text-align: center;
+}
+
+.black{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
+    background-color: black;
+    color: white;
 }
-.Pensador{
-    width: 30%;
-    margin-left: 100px;
-}
-.pensador{
+.black .contenido{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
     font-size: 150%;
     width: 150%;
+    margin-left: 350px;
+    -webkit-animation: black-contenido 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: black-contenido 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
-.Descripcion {
-    color: #5d5d5d;
-    width: 60%;
-}
-
-.grid David{
-    grid-area: David;
-    justify-content: center;
-    border: #088c01 10px solid;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.black .imagen{
+    margin-left: 150px;
+    -webkit-animation: black-imagen 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: black-imagen 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
-.David{
-    width: 60%;
-    height: auto;
+.white{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+.white .contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 150%;
+    width: 150%;
+    margin-right: 350px;
+    -webkit-animation: white-contenido 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: white-contenido 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+.white .imagen{
+    margin-right: 150px;
+    -webkit-animation: white-imagen 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: white-imagen 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+/*PARA IMAGENES*/
+@-webkit-keyframes white-imagen {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes white-imagen {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@-webkit-keyframes black-imagen {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes black-imagen {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
 }
 
-.grid Venus{
-    grid-area: Venus;
-    justify-content: center;
-    border: #088c01 1px solid;
-    margin-top: 20px;
-    margin-bottom: 20px;
+/*PARA TEXTO*/
+@-webkit-keyframes black-contenido {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-
-.Venus{
-    width: 30%;
-    height: auto;
+@keyframes black-contenido {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes white-contenido {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes white-contenido {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
 }
