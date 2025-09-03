@@ -25,8 +25,8 @@
 	        animation: imagen 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 .inicio-flex .imagen{
-    width: 400px;
-    height: 500px;
+    width: 500px;
+    height: 400px;
     align-items: center;
     margin-top: 30px;
     border-radius: 20px;
