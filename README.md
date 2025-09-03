@@ -1,5 +1,7 @@
 # macub-web-site
 
+![macub-logo](images/macub-logo.png)
+
 ## Descripción del proyecto
 
 Este proyecto corresponde al sitio web de "Macub". El objetivo principal es ofrecer una plataforma visual y funcional desarrollada íntegramente con HTML y CSS. La estructura del sitio permite una presentación clara de la información y una experiencia de usuario sencilla y eficiente.
