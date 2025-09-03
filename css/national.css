@@ -21,8 +21,8 @@
     align-items: center;
     margin: 60px;
     border-radius: 20px;
-    -webkit-animation: imagen 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: imagen 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    -webkit-animation: imagen 4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: imagen 4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 .inicio-flex .imagen{
     width: 500px;
@@ -32,8 +32,8 @@
     border-radius: 20px;
 }
 .contenido{
-    -webkit-animation: contenido 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-            animation: contenido 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    -webkit-animation: contenido 4s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+            animation: contenido 4s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 .flex{
     display: flex;
